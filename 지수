@@ -1,0 +1,14 @@
+a=0
+b=0
+sum=0
+c=0
+l=[]
+sum1=int(input('제곱하려는 수?'))
+sum2=int(input('제곱하려는 횟수?'))
+l.append(sum1)
+while b<sum2 :
+    a+=1
+    b+=1
+    c=a*sum1
+    l.append(c*sum1)
+print(l)
