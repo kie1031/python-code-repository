@@ -1,0 +1,18 @@
+a=0                                                ### c=a     
+b=0                                                    a=b
+c=0                                                    b=c
+d=[]
+e=0
+sum=int(input('첫번째 변수'))
+sum2=int(input('두번째 변수'))
+if sum>sum2:
+    c=sum2
+else:
+    c=sum
+while a<c:
+    a+=1
+    if sum2 % a == 0 and sum % a == 0:
+        d.append(a)
+h=int(sum*sum2/d[-1])
+print('최소공배수는 ' +str(h)+ ' 이고,')
+print('최대 공약수는 ' + str(d[-1]) + ' 입니다.')
