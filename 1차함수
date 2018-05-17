@@ -1,0 +1,18 @@
+import turtle
+def draw(a,b):
+    c = 0
+    x = -240
+    t.clear()
+    t.goto(x,-0)
+    t.pd()
+    while 480>c:
+        c+=1
+        t.goto(1,-a*x+b)
+    t.pu()
+a=int(input('a값을 입력하세요.'))
+b=int(input('b값을 입력하세요.'))
+t=turtle.Turtle()
+t.pu()
+t.color('red')
+t.pensize(2)
+draw(a/50,b)
